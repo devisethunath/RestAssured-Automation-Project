@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.RestAssuredAutomation_JobsAPI_utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.RestAssuredAutomation_LMSAPI_testCases.TC005_PUT_Request">
+        <methods>
+          <include name="setup"/>
+          <include name="Test02_PUTRequest_nonExistingProgramID"/>
+          <include name="Test01_PUTRequest_ExistingProgramID" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.RestAssuredAutomation_LMSAPI_testCases.TC005_PUT_Request -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
